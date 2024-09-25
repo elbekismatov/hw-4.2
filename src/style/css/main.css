@@ -240,6 +240,9 @@ header .container .nav .icons {
     padding: 58px 0 51px 0;
   }
   header .container {
+    width: 100%;
+    max-width: 327px;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -336,6 +339,10 @@ header .container .nav .icons {
     font-weight: 700;
     line-height: 21.78px;
     margin-bottom: 32px;
+  }
+  .section .container .parts h3 img {
+    width: 266px;
+    background: #3A3A3A;
   }
   .section .container .parts p {
     font-family: Inter;
